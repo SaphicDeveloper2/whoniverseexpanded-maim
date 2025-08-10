@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "whoniverseexpanded:dalekite_ingot"
+    }
+  },
+  "result": {
+    "item": "whoniverseexpanded:dalekite_armor_boots",
+    "count": 1
+  }
+}

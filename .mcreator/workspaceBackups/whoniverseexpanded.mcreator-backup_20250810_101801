@@ -1,0 +1,270 @@
+{
+  "mod_elements": [
+    {
+      "name": "LaserStun",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_stun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/damage_type/laser_stun.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_ingot.json",
+          "src/main/java/net/mcreator/whoniverseexpanded/item/DalekiteIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/loot_tables/blocks/dalekite_block.json",
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_block.json",
+          "src/main/java/net/mcreator/whoniverseexpanded/block/DalekiteBlockBlock.java",
+          "src/main/resources/assets/whoniverseexpanded/models/block/dalekite_block.json",
+          "src/main/resources/assets/whoniverseexpanded/blockstates/dalekite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_armor_chestplate.json",
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_armor_leggings.json",
+          "src/main/java/net/mcreator/whoniverseexpanded/item/DalekiteArmorItem.java",
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_armor_helmet.json",
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Dalekite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite.json"
+        ]
+      }
+    },
+    {
+      "name": "IngotTestIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingot_test_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whoniverseexpanded/item/IngotTestIngotItem.java",
+          "src/main/resources/assets/whoniverseexpanded/models/item/ingot_test_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Betaitems",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betaitems",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ENTITIES:minecraft:beehive_inhabitors": [],
+    "DAMAGE_TYPES:minecraft:bypasses_enchantments": [],
+    "ENTITIES:minecraft:skeletons": [],
+    "BLOCKS:minecraft:tall_flowers": [],
+    "BLOCKS:minecraft:valid_spawn": [],
+    "ITEMS:minecraft:enchantable/mining": [],
+    "DAMAGE_TYPES:minecraft:is_fall": [],
+    "DAMAGE_TYPES:minecraft:is_freezing": [],
+    "BIOMES:minecraft:is_ocean": [],
+    "BLOCKS:minecraft:fire": [],
+    "BLOCKS:minecraft:logs": [],
+    "BLOCKS:minecraft:leaves": [],
+    "BLOCKS:minecraft:dragon_immune": [],
+    "BLOCKS:minecraft:climbable": [],
+    "BIOMES:minecraft:is_mountain": [],
+    "FUNCTIONS:minecraft:load": [],
+    "ENTITIES:minecraft:powder_snow_walkable_mobs": [],
+    "BLOCKS:minecraft:wither_immune": [],
+    "ITEMS:forge:ingotsteel": [],
+    "BIOMES:minecraft:is_savanna": [],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DalekiteBlock"
+    ],
+    "BIOMES:minecraft:is_river": [],
+    "BLOCKS:minecraft:wooden_fences": [],
+    "BIOMES:minecraft:is_hill": [],
+    "BIOMES:minecraft:is_overworld": [],
+    "ENTITIES:minecraft:arrows": [],
+    "BLOCKS:minecraft:dirt": [],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DalekiteBlock"
+    ],
+    "BLOCKS:minecraft:fences": [],
+    "DAMAGE_TYPES:minecraft:is_drowning": [],
+    "BIOMES:minecraft:is_forest": [],
+    "FUNCTIONS:minecraft:tick": [],
+    "DAMAGE_TYPES:minecraft:is_explosion": [],
+    "ENTITIES:minecraft:impact_projectiles": [],
+    "ITEMS:minecraft:flowers": [],
+    "DAMAGE_TYPES:minecraft:bypasses_effects": [],
+    "BLOCKS:minecraft:small_flowers": [],
+    "ITEMS:minecraft:small_flowers": [],
+    "DAMAGE_TYPES:minecraft:is_fire": [],
+    "ITEMS:forge:ingotdalekanium": [
+      "CUSTOM:IngotTestIngot"
+    ],
+    "ITEMS:minecraft:arrows": [],
+    "BIOMES:minecraft:is_nether": [],
+    "DAMAGE_TYPES:minecraft:bypasses_shield": [],
+    "BLOCKS:minecraft:bee_growables": [],
+    "ITEMS:minecraft:planks": [],
+    "DAMAGE_TYPES:minecraft:bypasses_cooldown": [],
+    "BLOCKS:minecraft:prevent_mob_spawning_inside": [],
+    "DAMAGE_TYPES:minecraft:bypasses_armor": [],
+    "BLOCKS:minecraft:impermeable": [],
+    "DAMAGE_TYPES:minecraft:is_projectile": [],
+    "BIOMES:minecraft:is_end": [],
+    "ITEMS:minecraft:ingotdalekaniumpure": [],
+    "BLOCKS:minecraft:walls": [],
+    "ITEMS:minecraft:enchantable/weapon": [],
+    "BLOCKS:minecraft:animals_spawnable_on": [],
+    "BLOCKS:minecraft:beacon_base_blocks": []
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.whoniverseexpanded.dalekite_armor_boots": "Dalekite Boots",
+      "item.whoniverseexpanded.dalekite_armor_leggings": "Dalekite Leggings",
+      "block.whoniverseexpanded.dalekite_block": "Block of Dalekite",
+      "death.attack.laser_stun": "%1$s died",
+      "item_group.whoniverseexpanded.betaitems": "WE Creative only",
+      "item.whoniverseexpanded.ingot_test_ingot": "IngotTest",
+      "item.whoniverseexpanded.dalekite_ingot": "Dalekite",
+      "item.whoniverseexpanded.dalekite_armor_helmet": "Dalekite Helmet",
+      "death.attack.laser_stun.player": "%1$s died whilst trying to escape %2$s",
+      "item.whoniverseexpanded.dalekite_armor_chestplate": "Dalekite Chestplate",
+      "death.attack.laser_stun.item": "%1$s was killed by %2$s using %3$s"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "whoniverseexpanded",
+    "modName": "WhoniverseExpanded",
+    "version": "1.0.0",
+    "author": "Samantha, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.whoniverseexpanded"
+  },
+  "mcreatorVersion": 202400232117
+}
