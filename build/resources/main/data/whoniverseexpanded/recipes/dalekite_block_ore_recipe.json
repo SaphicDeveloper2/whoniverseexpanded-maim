@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "whoniverseexpanded:dalekite_block"
+    }
+  ],
+  "result": {
+    "item": "whoniverseexpanded:dalekite_ingot",
+    "count": 9
+  }
+}
