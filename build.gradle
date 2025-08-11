@@ -1,0 +1,70 @@
+plugins {
+    id 'eclipse'
+    id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
+}
+
+version = '1.0'
+// Updated to match your project
+group = 'net.mcreator.whoniverseexpanded'
+archivesBaseName = 'whoniverseexpanded'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    copyIdeResources = true
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                // Updated to match your project
+                whoniverseexpanded {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                // Updated to match your project
+                whoniverseexpanded {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+// THIS IS THE ONLY BLOCK ADDED.
+// It tells IntelliJ and Gradle where to find your assets and data folders.
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/main/resources", "src/generated/resources"
+        }
+    }
+}
+
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+apply from: 'mcreator.gradle'
