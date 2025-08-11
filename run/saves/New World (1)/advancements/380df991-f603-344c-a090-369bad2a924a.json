@@ -1,0 +1,21 @@
+{
+  "teabs_doctor_who_mod:advancement_tdwm": {
+    "criteria": {
+      "advancement_tdwm_0": "2025-08-10 19:34:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-10 19:34:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2025-08-10 19:34:21 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

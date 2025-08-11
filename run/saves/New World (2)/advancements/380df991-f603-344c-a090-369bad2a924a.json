@@ -1,0 +1,34 @@
+{
+  "teabs_doctor_who_mod:advancement_tdwm": {
+    "criteria": {
+      "advancement_tdwm_0": "2025-08-10 19:35:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-10 19:35:40 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2025-08-10 19:35:41 +0100",
+      "minecraft:savanna": "2025-08-10 21:52:36 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-08-10 21:49:55 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-08-10 21:47:07 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
