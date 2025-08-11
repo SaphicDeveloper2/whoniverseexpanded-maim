@@ -4,9 +4,8 @@ plugins {
 }
 
 version = '1.0'
-// Updated to match your project
-group = 'net.mcreator.whoniverseexpanded'
-archivesBaseName = 'whoniverseexpanded'
+group = 'net.mcreator.whoniverseexpanded' // Updated to match your project
+archivesBaseName = 'whoniverseexpanded'   // Updated to match your project
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -25,8 +24,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                // Updated to match your project
-                whoniverseexpanded {
+                whoniverseexpanded { // Updated to match your project
                     source sourceSets.main
                 }
             }
@@ -39,25 +37,13 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                // Updated to match your project
-                whoniverseexpanded {
+                whoniverseexpanded { // Updated to match your project
                     source sourceSets.main
                 }
             }
         }
     }
 }
-
-// THIS IS THE ONLY BLOCK ADDED.
-// It tells IntelliJ and Gradle where to find your assets and data folders.
-sourceSets {
-    main {
-        resources {
-            srcDirs "src/main/resources", "src/generated/resources"
-        }
-    }
-}
-
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
@@ -67,4 +53,14 @@ tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
 
+
+// --- THIS IS THE ONLY CODE YOU NEED TO ADD ---
+// It tells the processResources task to ignore duplicate files, fixing the build error.
+tasks.named('processResources', ProcessResources) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+
+// This line must come AFTER the block you just added.
 apply from: 'mcreator.gradle'
+
