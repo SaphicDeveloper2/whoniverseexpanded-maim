@@ -42,7 +42,7 @@ public class WhoniverseexpandedModItems {
 
     // --- Explicitly define the keys needed for the WeaponMaterial ---
     // 1. Get the key for the registry that holds all Weapon Traits.
-    private static final ResourceKey<Registry<WeaponTrait>> WEAPON_TRAIT_REGISTRY_KEY = ResourceKey.createRegistryKey(new ResourceLocation("spartanweaponry", "weapon_trait"));
+    private static final ResourceKey<Registry<WeaponTrait>> WEAPON_TRAIT_REGISTRY_KEY = ResourceKey.createRegistryKey(new ResourceLocation("whoniverseexpanded", "weapon_trait"));
 
     // 2. Create a TagKey for our specific trait tag within that registry.
     private static final TagKey<WeaponTrait> DALEKANIUM_TRAITS_TAG = TagKey.create(WEAPON_TRAIT_REGISTRY_KEY, new ResourceLocation(WhoniverseexpandedMod.MODID, "dalekanium_traits"));
