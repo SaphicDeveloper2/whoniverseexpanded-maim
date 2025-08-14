@@ -28,15 +28,15 @@ public class WhoniverseexpandedModTabs {
 			tabData.accept(WhoniverseexpandedModItems.DALEKITE_ARMOR_CHESTPLATE.get());
 			tabData.accept(WhoniverseexpandedModItems.DALEKITE_ARMOR_LEGGINGS.get());
 			tabData.accept(WhoniverseexpandedModItems.DALEKITE_ARMOR_BOOTS.get());
-			tabData.accept(WhoniverseexpandedModItems.ALEKITE_SWORD.get());
+			tabData.accept(WhoniverseexpandedModItems.DALEKITE_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(WhoniverseexpandedModItems.DALEKITE_INGOT.get());
 			tabData.accept(WhoniverseexpandedModItems.INGOT_TEST_INGOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(WhoniverseexpandedModItems.ALEKITE_PICKAXE.get());
-			tabData.accept(WhoniverseexpandedModItems.ALEKITE_AXE.get());
-			tabData.accept(WhoniverseexpandedModItems.ALEKITE_SHOVEL.get());
-			tabData.accept(WhoniverseexpandedModItems.ALEKITE_HOE.get());
+			tabData.accept(WhoniverseexpandedModItems.DALEKITE_PICKAXE.get());
+			tabData.accept(WhoniverseexpandedModItems.DALEKITE_AXE.get());
+			tabData.accept(WhoniverseexpandedModItems.DALEKITE_SHOVEL.get());
+			tabData.accept(WhoniverseexpandedModItems.DALEKITE_HOE.get());
 		}
 	}
 }

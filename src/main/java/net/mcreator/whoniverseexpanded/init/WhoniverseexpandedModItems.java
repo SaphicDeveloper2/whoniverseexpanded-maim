@@ -65,15 +65,15 @@ public class WhoniverseexpandedModItems {
     public static final RegistryObject<Item> DALEKITE_ARMOR_BOOTS = REGISTRY.register("dalekite_armor_boots", DalekiteArmorItem.Boots::new);
 
     // --- Standard Alekite Tools (Original Names Restored) ---
-    public static final RegistryObject<Item> ALEKITE_SWORD = REGISTRY.register("dalekite_sword",
+    public static final RegistryObject<Item> DALEKITE_SWORD = REGISTRY.register("dalekite_sword",
             () -> new SwordItem(DALEKITE_TIER, 3, -2.4F, new Item.Properties()));
-    public static final RegistryObject<Item> ALEKITE_PICKAXE = REGISTRY.register("dalekite_pickaxe",
+    public static final RegistryObject<Item> DALEKITE_PICKAXE = REGISTRY.register("dalekite_pickaxe",
             () -> new PickaxeItem(DALEKITE_TIER, 1, -2.8F, new Item.Properties()));
-    public static final RegistryObject<Item> ALEKITE_AXE = REGISTRY.register("dalekite_axe",
+    public static final RegistryObject<Item> DALEKITE_AXE = REGISTRY.register("dalekite_axe",
             () -> new AxeItem(DALEKITE_TIER, 5.0F, -3.0F, new Item.Properties()));
-    public static final RegistryObject<Item> ALEKITE_SHOVEL = REGISTRY.register("dalekite_shovel",
+    public static final RegistryObject<Item> DALEKITE_SHOVEL = REGISTRY.register("dalekite_shovel",
             () -> new ShovelItem(DALEKITE_TIER, 1.5F, -3.0F, new Item.Properties()));
-    public static final RegistryObject<Item> ALEKITE_HOE = REGISTRY.register("dalekite_hoe",
+    public static final RegistryObject<Item> DALEKITE_HOE = REGISTRY.register("dalekite_hoe",
             () -> new HoeItem(DALEKITE_TIER, -4, 0.0F, new Item.Properties()));
 
 

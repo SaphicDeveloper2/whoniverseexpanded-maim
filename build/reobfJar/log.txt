@@ -136,44 +136,6 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\Samantha\MCreatorWorkspaces\whoniverseexpanded\build\libs\whoniverseexpanded-1.1.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteAxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteAxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteAxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteAxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteAxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteAxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteHoeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteHoeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteHoeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteHoeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteHoeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteHoeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/block/DalekiteBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekitePickaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekitePickaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekitePickaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekitePickaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekitePickaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekitePickaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteShovelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteShovelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteShovelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteShovelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteShovelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteShovelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteSwordItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteSwordItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteSwordItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteSwordItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteSwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/AlekiteSwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/DalekiteArmorItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/DalekiteArmorItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/DalekiteArmorItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
@@ -182,12 +144,14 @@ Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/Dalekite
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/DalekiteArmorItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/DalekiteArmorItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/DalekiteArmorItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
-Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/whoniverseexpanded/block/DalekiteBlockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for com/oblivioussp/spartanweaponry/api/WeaponMaterial/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/ModArmorMaterials$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/ModArmorMaterials$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/ModArmorMaterials$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
@@ -196,6 +160,12 @@ Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/ModArmor
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/ModArmorMaterials$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/ModArmorMaterials$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
 Conflicting propagated mapping for net/mcreator/whoniverseexpanded/item/ModArmorMaterials$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeTier/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Adding extras
 Sorting
 Writing Output: C:\Users\Samantha\MCreatorWorkspaces\whoniverseexpanded\build\reobfJar\output.jar
@@ -242,11 +212,6 @@ Writing Output: C:\Users\Samantha\MCreatorWorkspaces\whoniverseexpanded\build\re
   assets/whoniverseexpanded/textures/block/ingottest_ore.png
   assets/whoniverseexpanded/textures/block/ingottest_ore_block.png
   assets/whoniverseexpanded/textures/item/
-  assets/whoniverseexpanded/textures/item/alekite_axe.png
-  assets/whoniverseexpanded/textures/item/alekite_hoe.png
-  assets/whoniverseexpanded/textures/item/alekite_pickaxe.png
-  assets/whoniverseexpanded/textures/item/alekite_shovel.png
-  assets/whoniverseexpanded/textures/item/alekite_sword.png
   assets/whoniverseexpanded/textures/item/dalekanium.png
   assets/whoniverseexpanded/textures/item/dalekanium_arrow.png
   assets/whoniverseexpanded/textures/item/dalekanium_battle_hammer.png
@@ -280,11 +245,16 @@ Writing Output: C:\Users\Samantha\MCreatorWorkspaces\whoniverseexpanded\build\re
   assets/whoniverseexpanded/textures/item/dalekanium_throwing_knife.png
   assets/whoniverseexpanded/textures/item/dalekanium_tomahawk.png
   assets/whoniverseexpanded/textures/item/dalekanium_warhammer.png
+  assets/whoniverseexpanded/textures/item/dalekite_axe.png
   assets/whoniverseexpanded/textures/item/dalekite_body.png
   assets/whoniverseexpanded/textures/item/dalekite_boots.png
   assets/whoniverseexpanded/textures/item/dalekite_head.png
+  assets/whoniverseexpanded/textures/item/dalekite_hoe.png
   assets/whoniverseexpanded/textures/item/dalekite_ingot.png
   assets/whoniverseexpanded/textures/item/dalekite_leggings.png
+  assets/whoniverseexpanded/textures/item/dalekite_pickaxe.png
+  assets/whoniverseexpanded/textures/item/dalekite_shovel.png
+  assets/whoniverseexpanded/textures/item/dalekite_sword.png
   assets/whoniverseexpanded/textures/item/dalekitealloy_gem.png
   assets/whoniverseexpanded/textures/item/daleksteel_body.png
   assets/whoniverseexpanded/textures/item/daleksteel_boots.png
@@ -1684,7 +1654,6 @@ Writing Output: C:\Users\Samantha\MCreatorWorkspaces\whoniverseexpanded\build\re
   data/whoniverseexpanded/recipes/dalekite_armor_leggings_recipe.json
   data/whoniverseexpanded/recipes/dalekite_block_ore_recipe.json
   data/whoniverseexpanded/recipes/dalekite_ore_block_recipe.json
-  mixin.refmap.json
   mixin/
   mixin/whoniverseexpanded.mixins.json
   net/
@@ -1698,33 +1667,29 @@ Writing Output: C:\Users\Samantha\MCreatorWorkspaces\whoniverseexpanded\build\re
   net/mcreator/whoniverseexpanded/init/WhoniverseexpandedModItems.class
   net/mcreator/whoniverseexpanded/init/WhoniverseexpandedModTabs.class
   net/mcreator/whoniverseexpanded/item/
-  net/mcreator/whoniverseexpanded/item/AlekiteAxeItem$1.class
-  net/mcreator/whoniverseexpanded/item/AlekiteAxeItem.class
-  net/mcreator/whoniverseexpanded/item/AlekiteHoeItem$1.class
-  net/mcreator/whoniverseexpanded/item/AlekiteHoeItem.class
-  net/mcreator/whoniverseexpanded/item/AlekitePickaxeItem$1.class
-  net/mcreator/whoniverseexpanded/item/AlekitePickaxeItem.class
-  net/mcreator/whoniverseexpanded/item/AlekiteShovelItem$1.class
-  net/mcreator/whoniverseexpanded/item/AlekiteShovelItem.class
-  net/mcreator/whoniverseexpanded/item/AlekiteSwordItem$1.class
-  net/mcreator/whoniverseexpanded/item/AlekiteSwordItem.class
   net/mcreator/whoniverseexpanded/item/DalekiteArmorItem$1.class
   net/mcreator/whoniverseexpanded/item/DalekiteArmorItem$Boots.class
   net/mcreator/whoniverseexpanded/item/DalekiteArmorItem$Chestplate.class
   net/mcreator/whoniverseexpanded/item/DalekiteArmorItem$Helmet.class
   net/mcreator/whoniverseexpanded/item/DalekiteArmorItem$Leggings.class
   net/mcreator/whoniverseexpanded/item/DalekiteArmorItem.class
+  net/mcreator/whoniverseexpanded/item/DalekiteAxeItem.class
+  net/mcreator/whoniverseexpanded/item/DalekiteHoeItem.class
   net/mcreator/whoniverseexpanded/item/DalekiteIngotItem.class
+  net/mcreator/whoniverseexpanded/item/DalekitePickaxeItem.class
+  net/mcreator/whoniverseexpanded/item/DalekiteShovelItem.class
+  net/mcreator/whoniverseexpanded/item/DalekiteSwordItem.class
   net/mcreator/whoniverseexpanded/item/IngotTestIngotItem.class
   net/mcreator/whoniverseexpanded/item/ModArmorMaterials$1.class
   net/mcreator/whoniverseexpanded/item/ModArmorMaterials.class
   net/mcreator/whoniverseexpanded/item/ModTiers.class
   net/mcreator/whoniverseexpanded/item/ingotSteel.class
-  net/mcreator/whoniverseexpanded/mixin/
-  net/mcreator/whoniverseexpanded/mixin/DalekaniumArmorItemMixin.class
-  net/mcreator/whoniverseexpanded/mixin/DalekaniumAxeMixin.class
-  net/mcreator/whoniverseexpanded/mixin/DalekaniumHoeMixin.class
-  net/mcreator/whoniverseexpanded/mixin/DalekaniumPickaxeMixin.class
-  net/mcreator/whoniverseexpanded/mixin/DalekaniumShovelMixin.class
-  net/mcreator/whoniverseexpanded/mixin/DalekaniumSwordMixin.class
+  net/mcreator/whoniverseexpanded/mixins/
+  net/mcreator/whoniverseexpanded/mixins/DalekaniumArmorItemMixin.class
+  net/mcreator/whoniverseexpanded/mixins/DalekaniumAxeMixin.class
+  net/mcreator/whoniverseexpanded/mixins/DalekaniumHoeMixin.class
+  net/mcreator/whoniverseexpanded/mixins/DalekaniumPickaxeMixin.class
+  net/mcreator/whoniverseexpanded/mixins/DalekaniumShovelMixin.class
+  net/mcreator/whoniverseexpanded/mixins/DalekaniumSwordMixin.class
   pack.mcmeta
+  whoniverseexpanded.refmap.json
