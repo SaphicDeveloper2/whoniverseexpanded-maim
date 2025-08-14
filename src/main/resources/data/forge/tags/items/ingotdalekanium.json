@@ -1,6 +1,6 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
-    "teabsdoctorwhomod:dalekanium_ingot"
+    "teabs_doctor_who_mod:dalekanium_ingot"
   ]
 }

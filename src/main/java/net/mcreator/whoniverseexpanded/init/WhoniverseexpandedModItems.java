@@ -16,26 +16,20 @@ import net.mcreator.whoniverseexpanded.item.IngotTestIngotItem;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
-import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ShovelItem;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.ForgeTier;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
 import java.util.function.Supplier;
+
+import static net.minecraft.tags.BlockTags.NEEDS_DIAMOND_TOOL;
+import static net.minecraft.world.item.crafting.Ingredient.of;
+import static net.teabs.teabsdoctorwhomod.init.TeabsDoctorWhoModModItems.DALEKANIUM_INGOT;
 
 public class WhoniverseexpandedModItems {
     public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, WhoniverseexpandedMod.MODID);
@@ -59,8 +53,8 @@ public class WhoniverseexpandedModItems {
             9.0F,                                   // efficiency
             4.0F,                                   // attackDamageBonus
             22,                                     // enchantmentValue
-            BlockTags.NEEDS_DIAMOND_TOOL,           // block-breaking tag
-            () -> Ingredient.of(DALEKITE_INGOT.get()) // repairIngredient
+            NEEDS_DIAMOND_TOOL,           // block-breaking tag
+            () -> of(DALEKANIUM_INGOT.get()) // repairIngredient
     );
 
     // --- Custom Armor and Tool Items ---
@@ -89,7 +83,7 @@ public class WhoniverseexpandedModItems {
             "dalekanium", WhoniverseexpandedMod.MODID,
             0xC57D0C, 0xA86A08,
             3500, 9.0F, 4.0F, 22,
-            ItemTags.create(new ResourceLocation("forge", "ingots/dalekanium")),
+            ItemTags.create(new ResourceLocation("whoniverseexpanded", "ingotdalekanium")),
             DALEKANIUM_TRAITS_TAG // Use the TagKey we defined at the top of the file.
     );
 
