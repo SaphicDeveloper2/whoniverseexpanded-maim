@@ -17,5 +17,11 @@
     },
     "done": false
   },
+  "spartanweaponry:recipes/small_arrow_quiver": {
+    "criteria": {
+      "has_arrow": "2025-08-14 14:30:45 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

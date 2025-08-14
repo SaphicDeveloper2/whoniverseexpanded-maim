@@ -1,6 +1,6 @@
-// File: net/mcreator/whoniverseexpanded/mixin/DalekaniumHoeMixin.java
+// File: net/mcreator/whoniverseexpanded/mixins/DalekaniumHoeMixin.java
 
-package net.mcreator.whoniverseexpanded.mixin;
+package net.mcreator.whoniverseexpanded.mixins;
 
 import net.mcreator.whoniverseexpanded.item.ModTiers;
 import net.minecraft.world.item.Tier;

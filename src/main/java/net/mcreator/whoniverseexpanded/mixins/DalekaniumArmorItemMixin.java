@@ -1,6 +1,6 @@
-// File: net/mcreator/whoniverseexpanded/mixin/DalekaniumArmorItemMixin.java
+// File: net/mcreator/whoniverseexpanded/mixins/DalekaniumArmorItemMixin.java
 
-package net.mcreator.whoniverseexpanded.mixin;
+package net.mcreator.whoniverseexpanded.mixins;
 
 import net.mcreator.whoniverseexpanded.item.ModArmorMaterials;
 import net.minecraft.world.item.ArmorMaterial;

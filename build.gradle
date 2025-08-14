@@ -1,12 +1,13 @@
 plugins {
     id 'eclipse'
     id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
+    // Corrected from 'mixins' to 'mixin'
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
 version = '1.1'
-group = 'net.mcreator.whoniverseexpanded' // Updated to match your project
-archivesBaseName = 'whoniverseexpanded'   // Updated to match your project
+group = 'net.mcreator.whoniverseexpanded'
+archivesBaseName = 'whoniverseexpanded'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -25,7 +26,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                whoniverseexpanded { // Updated to match your project
+                whoniverseexpanded {
                     source sourceSets.main
                 }
             }
@@ -38,7 +39,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                whoniverseexpanded { // Updated to match your project
+                whoniverseexpanded {
                     source sourceSets.main
                 }
             }
@@ -46,24 +47,27 @@ minecraft {
     }
 }
 
+// This block is correct as-is
+mixin {
+    add sourceSets.main, "whoniverseexpanded.refmap.json"
+    config "whoniverseexpanded.mixins.json"
+
+    debug.verbose = true
+    debug.export = true
+}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
+    // Corrected from 'mixins' to 'mixin'
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
-
 }
 
 tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+    options.encoding = 'UTF-8'
 }
 
-
-// --- THIS IS THE ONLY CODE YOU NEED TO ADD ---
-// It tells the processResources task to ignore duplicate files, fixing the build error.
 tasks.named('processResources', ProcessResources) {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 
-
-// This line must come AFTER the block you just added.
 apply from: 'mcreator.gradle'
-
