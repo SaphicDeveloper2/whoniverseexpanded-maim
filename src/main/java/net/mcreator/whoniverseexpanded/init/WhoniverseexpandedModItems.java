@@ -46,15 +46,15 @@ public class WhoniverseexpandedModItems {
     public static final RegistryObject<Item> DALEKITE_INGOT = REGISTRY.register("dalekite_ingot", DalekiteIngotItem::new);
     public static final RegistryObject<Item> INGOT_TEST_INGOT = REGISTRY.register("ingot_test_ingot", IngotTestIngotItem::new);
 
-    // --- Vanilla Tool Tier for Dalekanium/Alekite Tools ---
-    public static final Tier DALEKANIUM_TIER = new ForgeTier(
-            4,                                      // miningLevel (4 = Netherite)
+    // --- Vanilla Tool Tier for Dalekanium Alekite Tools ---
+    public static final Tier DALEKITE_TIER = new ForgeTier(
+            5,                                      // miningLevel (4 = Netherite)
             3500,                                   // uses
             9.0F,                                   // efficiency
             4.0F,                                   // attackDamageBonus
             22,                                     // enchantmentValue
             NEEDS_DIAMOND_TOOL,           // block-breaking tag
-            () -> of(DALEKANIUM_INGOT.get()) // repairIngredient
+            () -> of(DALEKITE_INGOT.get()) // repairIngredient
     );
 
     // --- Custom Armor and Tool Items ---
@@ -65,16 +65,16 @@ public class WhoniverseexpandedModItems {
     public static final RegistryObject<Item> DALEKITE_ARMOR_BOOTS = REGISTRY.register("dalekite_armor_boots", DalekiteArmorItem.Boots::new);
 
     // --- Standard Alekite Tools (Original Names Restored) ---
-    public static final RegistryObject<Item> ALEKITE_SWORD = REGISTRY.register("alekite_sword",
-            () -> new SwordItem(DALEKANIUM_TIER, 3, -2.4F, new Item.Properties()));
-    public static final RegistryObject<Item> ALEKITE_PICKAXE = REGISTRY.register("alekite_pickaxe",
-            () -> new PickaxeItem(DALEKANIUM_TIER, 1, -2.8F, new Item.Properties()));
-    public static final RegistryObject<Item> ALEKITE_AXE = REGISTRY.register("alekite_axe",
-            () -> new AxeItem(DALEKANIUM_TIER, 5.0F, -3.0F, new Item.Properties()));
-    public static final RegistryObject<Item> ALEKITE_SHOVEL = REGISTRY.register("alekite_shovel",
-            () -> new ShovelItem(DALEKANIUM_TIER, 1.5F, -3.0F, new Item.Properties()));
-    public static final RegistryObject<Item> ALEKITE_HOE = REGISTRY.register("alekite_hoe",
-            () -> new HoeItem(DALEKANIUM_TIER, -4, 0.0F, new Item.Properties()));
+    public static final RegistryObject<Item> ALEKITE_SWORD = REGISTRY.register("dalekite_sword",
+            () -> new SwordItem(DALEKITE_TIER, 3, -2.4F, new Item.Properties()));
+    public static final RegistryObject<Item> ALEKITE_PICKAXE = REGISTRY.register("dalekite_pickaxe",
+            () -> new PickaxeItem(DALEKITE_TIER, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> ALEKITE_AXE = REGISTRY.register("dalekite_axe",
+            () -> new AxeItem(DALEKITE_TIER, 5.0F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> ALEKITE_SHOVEL = REGISTRY.register("dalekite_shovel",
+            () -> new ShovelItem(DALEKITE_TIER, 1.5F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> ALEKITE_HOE = REGISTRY.register("dalekite_hoe",
+            () -> new HoeItem(DALEKITE_TIER, -4, 0.0F, new Item.Properties()));
 
 
     // --- Spartan Weaponry Material for Dalekanium ---

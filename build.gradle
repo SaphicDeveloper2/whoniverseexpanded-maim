@@ -1,9 +1,10 @@
 plugins {
     id 'eclipse'
     id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
 }
 
-version = '1.0'
+version = '1.1'
 group = 'net.mcreator.whoniverseexpanded' // Updated to match your project
 archivesBaseName = 'whoniverseexpanded'   // Updated to match your project
 
@@ -47,6 +48,8 @@ minecraft {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
 }
 
 tasks.withType(JavaCompile).configureEach {
