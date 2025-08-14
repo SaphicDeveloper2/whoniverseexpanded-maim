@@ -23,5 +23,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-08-14 18:12:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-08-14 18:12:50 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

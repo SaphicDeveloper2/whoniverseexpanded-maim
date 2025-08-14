@@ -12,7 +12,8 @@ dependencies {
     // Your Spartan Weaponry dependency.
     // 'fg.deobf' correctly tells ForgeGradle to download and deobfuscate this mod.
     implementation fg.deobf("curse.maven:spartan-weaponry-278141:6842571")
-    implementation fg.deobf("curse.maven:teabs-doctor-who-mod-994244:6611864")
+    implementation fg.deobf("curse.maven:teabs-doctor-who-mod-994244:6874848")
+    implementation fg.deobf("curse.maven:mixinbooster-980731:5146058")
     // Add any other mod or library dependencies you need here.
     // Example: implementation fg.deobf("curse.maven:another-mod:123456:7890123")
 }
