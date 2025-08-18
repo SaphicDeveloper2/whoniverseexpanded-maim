@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:ingotdalekanium"
+      },
+      {
+        "value": "TAG:forge:ingotdalekanium"
+      },
+      {
+        "value": "TAG:forge:ingotdalekanium"
+      },
+      {
+        "value": "TAG:forge:ingotdalekanium"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "TAG:forge:ingotdalekanium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DalekaniumBattleaxe"
+    },
+    "name": "battleaxe_dalekanium",
+    "namespace": "mod"
+  }
+}

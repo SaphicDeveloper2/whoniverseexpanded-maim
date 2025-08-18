@@ -1,0 +1,22 @@
+{
+  "item.whoniverseexpanded.dalekanium_battleaxe": "Dalekanium Battleaxe",
+  "item_group.whoniverseexpanded.betaitems": "WE Creative only",
+  "item.whoniverseexpanded.dalekite_armor_boots": "Dalekite Boots",
+  "item.whoniverseexpanded.ingot_test_ingot": "IngotTest",
+  "item.whoniverseexpanded.alekite_sword": "Dalekite Sword",
+  "item.whoniverseexpanded.dalekanium_greatsword": "Dalekanium Greatsword",
+  "item.whoniverseexpanded.alekite_shovel": "Dalekite Shovel",
+  "item.whoniverseexpanded.alekite_hoe": "Dalekite Hoe",
+  "item.whoniverseexpanded.alekite_pickaxe": "Dalekite Pickaxe",
+  "death.attack.laser_stun": "%1$s died",
+  "block.whoniverseexpanded.dalekite_block": "Block of Dalekite",
+  "item.whoniverseexpanded.dalekite_armor_leggings": "Dalekite Leggings",
+  "item.whoniverseexpanded.dalekanium_longsword": "Dalekanium Longsword",
+  "item.whoniverseexpanded.dalekite_ingot": "Dalekite",
+  "item.whoniverseexpanded.dalekite_armor_helmet": "Dalekite Helmet",
+  "item.whoniverseexpanded.alekite_axe": "Dalekite Axe",
+  "item.whoniverseexpanded.dalekanium_katana": "Dalekanium Katana",
+  "death.attack.laser_stun.player": "%1$s died whilst trying to escape %2$s",
+  "item.whoniverseexpanded.dalekite_armor_chestplate": "Dalekite Chestplate",
+  "death.attack.laser_stun.item": "%1$s was killed by %2$s using %3$s"
+}

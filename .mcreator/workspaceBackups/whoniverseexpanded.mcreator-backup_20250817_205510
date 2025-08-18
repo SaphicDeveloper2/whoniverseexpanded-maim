@@ -1,0 +1,479 @@
+{
+  "mod_elements": [
+    {
+      "name": "LaserStun",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_stun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/damage_type/laser_stun.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_ingot.json",
+          "src/main/java/net/sapphic/whoniverseexpanded/item/DalekiteIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_block.json",
+          "src/main/resources/assets/whoniverseexpanded/models/block/dalekite_block.json",
+          "src/main/resources/data/whoniverseexpanded/loot_tables/blocks/dalekite_block.json",
+          "src/main/resources/assets/whoniverseexpanded/blockstates/dalekite_block.json",
+          "src/main/java/net/sapphic/whoniverseexpanded/block/DalekiteBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_armor_helmet.json",
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_armor_boots.json",
+          "src/main/java/net/sapphic/whoniverseexpanded/item/DalekiteArmorItem.java",
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_armor_chestplate.json",
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekite_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekiteArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Dalekite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/dalekite.json"
+        ]
+      }
+    },
+    {
+      "name": "IngotTestIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingot_test_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sapphic/whoniverseexpanded/item/IngotTestIngotItem.java",
+          "src/main/resources/assets/whoniverseexpanded/models/item/ingot_test_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Betaitems",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betaitems",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AlekitePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alekite_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whoniverseexpanded/models/item/alekite_pickaxe.json",
+          "src/main/java/net/sapphic/whoniverseexpanded/item/AlekitePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AlekiteAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alekite_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sapphic/whoniverseexpanded/item/AlekiteAxeItem.java",
+          "src/main/resources/assets/whoniverseexpanded/models/item/alekite_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "AlekiteSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alekite_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whoniverseexpanded/models/item/alekite_sword.json",
+          "src/main/java/net/sapphic/whoniverseexpanded/item/AlekiteSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AlekiteShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alekite_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sapphic/whoniverseexpanded/item/AlekiteShovelItem.java",
+          "src/main/resources/assets/whoniverseexpanded/models/item/alekite_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "AlekiteHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alekite_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sapphic/whoniverseexpanded/item/AlekiteHoeItem.java",
+          "src/main/resources/assets/whoniverseexpanded/models/item/alekite_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "AlekitePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alekite_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/alekite_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AlekiteAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alekite_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/alekite_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AlekiteSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alekite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/alekite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AlekiteShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alekite_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/alekite_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AlekiteHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alekite_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/alekite_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekaniumKatana",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekanium_katana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/sapphic/whoniverseexpanded/item/DalekaniumKatanaItem.java",
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekanium_katana.json"
+        ]
+      }
+    },
+    {
+      "name": "KatanaDalekanium",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_dalekanium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/katana_dalekanium.json"
+        ]
+      }
+    },
+    {
+      "name": "DalekaniumBattleaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekanium_battleaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekanium_battleaxe.json",
+          "src/main/java/net/sapphic/whoniverseexpanded/item/DalekaniumBattleaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DalekaniumLongsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekanium_longsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekanium_longsword.json",
+          "src/main/java/net/sapphic/whoniverseexpanded/item/DalekaniumLongswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DalekaniumGreatsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dalekanium_greatsword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whoniverseexpanded/models/item/dalekanium_greatsword.json",
+          "src/main/java/net/sapphic/whoniverseexpanded/item/DalekaniumGreatswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BattleaxeDalekanium",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battleaxe_dalekanium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/battleaxe_dalekanium.json"
+        ]
+      }
+    },
+    {
+      "name": "LongswordDalekanium",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "longsword_dalekanium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/longsword_dalekanium.json"
+        ]
+      }
+    },
+    {
+      "name": "GreatswordDalekanium",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greatsword_dalekanium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whoniverseexpanded/recipes/greatsword_dalekanium.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DalekiteBlock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DalekiteBlock"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:AlekitePickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:DalekaniumBattleaxe",
+      "~CUSTOM:AlekiteAxe"
+    ],
+    "ITEMS:forge:sword/dalekanium": [
+      "teabs_doctor_who_mod:dalekanium_sword"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:AlekiteHoe"
+    ],
+    "ITEMS:forge:ingotdalekanium": [
+      "teabs_doctor_who_mod:dalekanium_ingot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:DalekaniumGreatsword",
+      "~CUSTOM:DalekaniumLongsword",
+      "~CUSTOM:DalekaniumKatana",
+      "~CUSTOM:AlekiteSword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:AlekiteShovel"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.whoniverseexpanded.dalekite_armor_boots": "Dalekite Boots",
+      "item_group.whoniverseexpanded.betaitems": "WE Creative only",
+      "item.whoniverseexpanded.dalekanium_battleaxe": "Dalekanium Battleaxe",
+      "item.whoniverseexpanded.ingot_test_ingot": "IngotTest",
+      "item.whoniverseexpanded.alekite_sword": "Dalekite Sword",
+      "item.whoniverseexpanded.dalekanium_greatsword": "Dalekanium Greatsword",
+      "item.whoniverseexpanded.alekite_shovel": "Dalekite Shovel",
+      "item.whoniverseexpanded.alekite_hoe": "Dalekite Hoe",
+      "item.whoniverseexpanded.alekite_pickaxe": "Dalekite Pickaxe",
+      "death.attack.laser_stun": "%1$s died",
+      "block.whoniverseexpanded.dalekite_block": "Block of Dalekite",
+      "item.whoniverseexpanded.dalekite_armor_leggings": "Dalekite Leggings",
+      "item.whoniverseexpanded.dalekanium_longsword": "Dalekanium Longsword",
+      "item.whoniverseexpanded.dalekite_ingot": "Dalekite",
+      "item.whoniverseexpanded.dalekite_armor_helmet": "Dalekite Helmet",
+      "item.whoniverseexpanded.alekite_axe": "Dalekite Axe",
+      "item.whoniverseexpanded.dalekanium_katana": "Dalekanium Katana",
+      "death.attack.laser_stun.player": "%1$s died whilst trying to escape %2$s",
+      "item.whoniverseexpanded.dalekite_armor_chestplate": "Dalekite Chestplate",
+      "death.attack.laser_stun.item": "%1$s was killed by %2$s using %3$s"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "whoniverseexpanded",
+    "modName": "WhoniverseExpanded",
+    "version": "0.01",
+    "description": "a mod that expands the whoniverse",
+    "author": "sapphic, teab02",
+    "websiteURL": "https://mcreator.net",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "teabs_doctor_who_mod"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "use_compiled_mods"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Aaa Daleks!!Created using mod maker MCreato/about",
+    "modElementsPackage": "net.sapphic.whoniverseexpanded"
+  },
+  "mcreatorVersion": 202400232117
+}

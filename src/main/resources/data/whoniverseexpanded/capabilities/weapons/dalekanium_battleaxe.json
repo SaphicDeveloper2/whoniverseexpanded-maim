@@ -1,0 +1,21 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.4
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "attributes": {
+    "two_hand": {
+      "damage_bonus": 4.0
+    }
+  },
+  "type": "epicfight:axe"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "aaa",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingotdalekanium"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "whoniverseexpanded:dalekanium_greatsword",
+    "count": 1
+  }
+}

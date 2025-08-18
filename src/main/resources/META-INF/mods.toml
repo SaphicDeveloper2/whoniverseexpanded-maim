@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Creative Commons Attribution-NonCommercial 3.0"
+
+[[mods]]
+modId="whoniverseexpanded"
+version="0.01"
+displayName="WhoniverseExpanded"
+displayURL="https://mcreator.net"
+credits="Aaa Daleks!!Created using mod maker MCreato/about"
+authors="sapphic, teab02"
+description="a mod that expands the whoniverse"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.whoniverseexpanded]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.whoniverseexpanded]]
+    modId="teabs_doctor_who_mod"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.whoniverseexpanded]]
+    modId="use_compiled_mods"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
