@@ -8,9 +8,10 @@ import net.minecraft.world.level.Level;
 import wcore.sapphic.ai.AbstractDalekEntity;
 
 
-public class DalekEntityPaladin extends AbstractDalekEntity {
 
-    public DalekEntityPaladin(EntityType<? extends Monster> type, Level level) {
+public class ExampleDalekEntity extends AbstractDalekEntity {
+
+    public ExampleDalekEntity(EntityType<? extends Monster> type, Level level) {
         super(type, level);
     }
 
