@@ -23,7 +23,6 @@ import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
-import wcore.sapphic.entities.DalekEntityPaladin;
 import wcore.sapphic.entities.DalekRegistryFactory;
 import wcore.sapphic.entities.ExampleDalekEntity;
 
@@ -50,16 +49,10 @@ public class WhoniverseexpandedMod {
             ExampleDalekEntity::new,   // The constructor for our new class
             "example_dalek.png"      // The texture file it will use
     );
-    public static final RegistryObject<EntityType<DalekEntityPaladin>> DALEKPALADIN =DalekRegistryFactory.registerDalek(
-            "paladin_dalek",
-            DalekEntityPaladin::new,"example_dalek.png" //intended to change. placeholder texture
-            );
-
     @SubscribeEvent
     public static void onAttributeCreate(EntityAttributeCreationEvent event) {
         // This connects the attributes from the entity class to the entity type
         event.put(WhoniverseexpandedMod.EXAMPLE_DALEK.get(), ExampleDalekEntity.createAttributes().build());
-        event.put(WhoniverseexpandedMod.DALEKPALADIN.get(), DalekEntityPaladin.createAttributes().build());
     }
 
 // ... rest of your class ...
@@ -77,8 +70,6 @@ public class WhoniverseexpandedMod {
 		WhoniverseexpandedModTabs.REGISTRY.register(bus);
 
         DALEK_FACTORY.register(bus);
-
-        //SoundEventsInit.register(bus);
 
 
 
