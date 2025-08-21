@@ -8,4 +8,5 @@ dependencies {
     implementation fg.deobf("curse.maven:teabs-doctor-who-mod-994244:6874848")
     implementation fg.deobf("curse.maven:mixinbooster-980731:5146058")
     implementation fg.deobf("curse.maven:jei-238222:6600311")
+    implementation fg.deobf("curse.maven:whoniverseapi-1330119:6901439")
 }

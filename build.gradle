@@ -1,7 +1,6 @@
 plugins {
     id 'eclipse'
     id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
-    id 'com.github.johnrengelman.shadow' version '8.1.1'
 }
 
 version = '1.1'
@@ -46,54 +45,12 @@ minecraft {
     }
 }
 
-// Create a new configuration specifically for shaded dependencies
-configurations {
-    shadowImplementation {
-        canBeResolved = true
-        canBeConsumed = false
-    }
-    implementation.extendsFrom shadowImplementation
-}
-
 dependencies {
     minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
 
-    // Local API dependency to be bundled into the mod
-    shadowImplementation fileTree(dir: 'libs', include: ['*.jar'])
+    // Local API dependency
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
-
-// Configure the shadowJar task to bundle dependencies
-shadowJar {
-    configurations = [project.configurations.shadowImplementation]
-    archiveClassifier.set('dev') // avoid conflicts with reobf
-    relocate 'wcore.sapphic', 'net.whoniverseexpanded.dependencies.whoniverseapi'
-}
-
-// Register shadowJar for reobfuscation
-reobf {
-    shadowJar {}
-}
-
-// Make build run shadowJar → reobfShadowJar
-tasks.build {
-    dependsOn tasks.reobfShadowJar
-}
-
-// Rename final jar to a clean name after reobf
-tasks.reobfShadowJar {
-    doLast {
-        def finalName = "${archivesBaseName}-${version}.jar"
-        def buildLibs = layout.buildDirectory.dir("libs").get().asFile
-        fileTree(buildLibs).matching {
-            include "*-dev.jar"
-        }.forEach { f ->
-            f.renameTo(new File(buildLibs, finalName))
-        }
-    }
-}
-
-// Disable the plain jar task (we only want the shaded one)
-tasks.jar.enabled = false
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
@@ -102,6 +59,9 @@ tasks.withType(JavaCompile).configureEach {
 tasks.named('processResources', ProcessResources) {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
+
+// The 'reobf' task provided by ForgeGradle will handle the standard jar.
+// The 'build' task depends on 'reobfJar' by default.
 
 // Pull in extra dependencies
 apply from: 'dependencies.gradle'

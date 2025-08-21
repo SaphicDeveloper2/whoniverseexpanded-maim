@@ -1,5 +1,6 @@
 package net.sapphic.whoniverseexpanded;
 
+import com.sapphic.entities.DalekEntityPaladin;
 import net.minecraft.world.entity.EntityType;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.registries.RegistryObject;
@@ -44,15 +45,15 @@ public class WhoniverseexpandedMod {
 
     // ... inside your main mod class ...
 
-    public static final RegistryObject<EntityType<ExampleDalekEntity>> EXAMPLE_DALEK = DalekRegistryFactory.registerDalek(
-            "example_dalek",         // The name used in commands, e.g., /summon yourmodid:example_dalek
-            ExampleDalekEntity::new,   // The constructor for our new class
+    public static final RegistryObject<EntityType<DalekEntityPaladin>> PALADIN_DALEK = DalekRegistryFactory.registerDalek(
+            "paladin_dalek",         // The name used in commands, e.g., /summon yourmodid:example_dalek
+            DalekEntityPaladin::new,   // The constructor for our new class
             "example_dalek.png"      // The texture file it will use
     );
     @SubscribeEvent
     public static void onAttributeCreate(EntityAttributeCreationEvent event) {
         // This connects the attributes from the entity class to the entity type
-        event.put(WhoniverseexpandedMod.EXAMPLE_DALEK.get(), ExampleDalekEntity.createAttributes().build());
+        event.put(WhoniverseexpandedMod.PALADIN_DALEK.get(), DalekEntityPaladin.createAttributes().build());
     }
 
 // ... rest of your class ...
